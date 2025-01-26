@@ -96,22 +96,22 @@ def heuristic_send(state):
         else:
             heuristic_value = 0
             
-            # find closest attack planet
-            closest_planet_that_can_attack = None
-            closest_distance = 999999 # some large value. 
-            
-            # get a subset of my planets that doesn't include planet (planet can't attack self)
-            my_planets_subset = [p for p in state.my_planets() if p.ID != planet.ID]
-            
-            for my_planet in my_planets_subset:
-                growth_rate_adjusted = this_planet_ships + planet.growth_rate * state.distance(my_planet.ID, planet.ID)
-                if my_planet.num_ships > growth_rate_adjusted and state.distance(my_planet.ID, planet.ID) < closest_distance:
-                    closest_distance = state.distance(my_planet.ID, planet.ID)
-                    closest_planet_that_can_attack = my_planet
-                    
-            # if there is a planet that can attack, calculate heuristic value
-            if closest_planet_that_can_attack:
-                heuristic_value = planet_value_heuristic(planet, closest_distance)
+        # find closest attack planet
+        closest_planet_that_can_attack = None
+        closest_distance = 999999 # some large value. 
+        
+        # get a subset of my planets that doesn't include planet (planet can't attack self)
+        my_planets_subset = [p for p in state.my_planets() if p.ID != planet.ID]
+        
+        for my_planet in my_planets_subset:
+            growth_rate_adjusted = this_planet_ships + planet.growth_rate * state.distance(my_planet.ID, planet.ID)
+            if my_planet.num_ships > growth_rate_adjusted and state.distance(my_planet.ID, planet.ID) < closest_distance:
+                closest_distance = state.distance(my_planet.ID, planet.ID)
+                closest_planet_that_can_attack = my_planet
+                
+        # if there is a planet that can attack, calculate heuristic value
+        if closest_planet_that_can_attack:
+            heuristic_value = planet_value_heuristic(planet, closest_distance)
                 
         # if heuristic value > best value, then update best value
         if heuristic_value > best_value:
