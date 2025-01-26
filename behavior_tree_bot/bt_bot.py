@@ -14,7 +14,7 @@ sys.path.append(parentdir)
 
 from behavior_tree_bot.behaviors import *
 from behavior_tree_bot.checks import *
-from behavior_tree_bot.bt_nodes import Selector, Sequence, Action, Check
+from behavior_tree_bot.bt_nodes import Selector, Sequence, Action, Check, LoopUntilFailed, Inverter, Succeeder
 
 from planet_wars import PlanetWars, finish_turn
 
@@ -25,22 +25,23 @@ def setup_behavior_tree():
     # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
 
-    offensive_plan = Sequence(name='Offensive Strategy')
-    largest_fleet_check = Check(have_largest_fleet)
-    attack = Action(attack_weakest_enemy_planet)
-    offensive_plan.child_nodes = [largest_fleet_check, attack]
+    # offensive_plan = Sequence(name='Offensive Strategy')
+    # largest_fleet_check = Check(have_largest_fleet)
+    # attack = Action(attack_weakest_enemy_planet)
+    # offensive_plan.child_nodes = [largest_fleet_check, attack]
 
-    spread_sequence = Sequence(name='Spread Strategy')
-    neutral_planet_check = Check(if_neutral_planet_available)
-    spread_action = Action(spread_to_weakest_neutral_planet)
-    spread_sequence.child_nodes = [neutral_planet_check, spread_action]
+    # spread_sequence = Sequence(name='Spread Strategy')
+    # neutral_planet_check = Check(if_neutral_planet_available)
+    # spread_action = Action(spread_to_weakest_neutral_planet)
+    # spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    heuristic_selector = Selector(name='Heuristic Selector')
+    new_selector = Selector(name='Heuristic Selector')
     rebalancer = Action(rebalance)
-    heuristic = Action(heuristic_send)
-    heuristic_selector.child_nodes = [heuristic]
+    attack = Action(send_first)
+    repeater = LoopUntilFailed(attack)
+    new_selector.child_nodes = [repeater]
 
-    root.child_nodes = [heuristic_selector, rebalancer]
+    root.child_nodes = [new_selector]
 
     logging.info('\n' + root.tree_to_string())
     return root

@@ -84,7 +84,19 @@ def rebalance(state):
                     fleet_strength = max(fleet_strength, 1)
                     return issue_order(state, planet.ID, target_planet.ID, fleet_strength)
      
-     
+def send_first(state):
+    for target_planet in state.my_planets() + state.enemy_planets():
+        simulated_planet_owner, simulated_planet_ships = simulate_planet(state, target_planet, 10, 99)
+        if simulated_planet_owner == 1:
+            continue
+        my_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, target_planet.ID))
+        for source_planet in my_planets_by_distance:
+            distance = state.distance(source_planet.ID, target_planet.ID)
+            growth_cost = target_planet.growth_rate * distance
+            cost = simulated_planet_ships + 1 + growth_cost
+            if source_planet.num_ships > cost:
+                return issue_order(state, source_planet.ID, target_planet.ID, cost)
+    return False
      
 def simulate_planet (state, planet, max_turn_depth, max_fleet_depth):
     # get all fleets in transit to planet
