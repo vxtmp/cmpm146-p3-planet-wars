@@ -35,11 +35,13 @@ def setup_behavior_tree():
     # spread_action = Action(spread_to_weakest_neutral_planet)
     # spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
+    
     new_selector = Selector(name='Heuristic Selector')
+    attack = Action(send_highest_value)
+    repeater = LoopUntilFailed(attack)
+    
     rebalancer = Action(rebalance)
     
-    attack = Action(send_first)
-    repeater = LoopUntilFailed(attack)
     new_selector.child_nodes = [repeater]
 
     root.child_nodes = [new_selector]

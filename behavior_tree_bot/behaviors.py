@@ -63,6 +63,17 @@ def send_one_to_all(state):
             # else consider a joint attack
     return False
      
+def send_from_farthest_to_frontline(state):
+    # determine which owned planet is farthest from average position of enemies
+    # determine which owned planet is closer to average position of enemies
+    for my_planet in state.my_planets():
+        # calculate average enemy position
+        avg_enemy_position = sum(enemy_planet.num_ships for enemy_planet in state.enemy_planets()) / len(state.enemy_planets())
+        avg_enemy_position = int(avg_enemy_position)
+        # calculate distance from average enemy position
+        distance_from_avg = state.distance(my_planet.ID, avg_enemy_position)
+        # if distance is far,
+     
 def rebalance(state):
     # get total fleet, get total growth rate, weight fleet distribution to each planet by growth rate
     # select random planet with fleet count > its weighted fleet distribution
@@ -72,39 +83,124 @@ def rebalance(state):
     total_fleet = sum(planet.num_ships for planet in state.my_planets())
     total_growth_rate = sum(planet.growth_rate for planet in state.my_planets())
     total_growth_rate = max(total_growth_rate, 1)
-    weighted_fleet_distribution = total_fleet / total_growth_rate
+    weighted_fleet_distribution = total_fleet / total_growth_rate # avg fleet per growth rate
+    
+    lowest_need = 999999
+    lowest_planet = None
+    highest_surplus = 0
+    highest_planet = None
+    
     for planet in state.my_planets():
+        
+        weighted_threshold_ships = planet.growth_rate * weighted_fleet_distribution # fleet per this planet's growth rate
+        
         if planet.num_ships > planet.growth_rate * weighted_fleet_distribution:
             # send to lowest planet
             ordered_planets_by_ships = sorted(state.my_planets(), key=lambda p: p.num_ships)
             for target_planet in ordered_planets_by_ships:
-                if target_planet.num_ships < target_planet.growth_rate * weighted_fleet_distribution:
-                    fleet_strength = planet.num_ships - target_planet.num_ships
-                    fleet_strength = min(fleet_strength, planet.num_ships - 1)
-                    fleet_strength = max(fleet_strength, 1)
-                    return issue_order(state, planet.ID, target_planet.ID, fleet_strength)
+                
+                enemy_combat_potential = evaluate_combat_potential(state, planet, target_planet)
+                # evaluate some heuristic for NEED (low value) / SURPLUS (high value)
+                planet_need_heuristic = enemy_combat_potential * planet.num_ships / weighted_threshold_ships
+    
+                if planet_need_heuristic < lowest_need:
+                    lowest_need = planet_need_heuristic
+                    lowest_planet = target_planet
+                elif planet_need_heuristic > highest_surplus:
+                    highest_surplus = planet_need_heuristic
+                    highest_planet = target_planet
+    
+                # if target_planet.num_ships < target_planet.growth_rate * weighted_fleet_distribution:
+                #     fleet_strength = planet.num_ships - target_planet.num_ships
+                #     fleet_strength = min(fleet_strength, planet.num_ships - 1)
+                #     fleet_strength = max(fleet_strength, 1)
+                #     return issue_order(state, planet.ID, target_planet.ID, fleet_strength)
+          
+    if not lowest_planet or not highest_planet:
+        return False
+    else:
+        fleet_strength = highest_planet.num_ships - 1
+        return issue_order(state, highest_planet.ID, lowest_planet.ID, fleet_strength)
      
      
 # send from high response time nodes to high value enemy nodes
 def throwaway(state):
-    # evaluate surplus
+    # evaluate surplus. 
     # throw surplus high value enemy planets / low response time enemy planets
     pass
      
-def evaluate_vertex (state, target_planet, cost):
+# evaluates enemy combat potential targeting this planet.
+def evaluate_combat_potential (state, source_planet, target_planet):
+    # ships, distance + growth rate, number of enemy nodes
+    total_weighted_combat_potential = 0
+
+    for enemy_planet in state.enemy_planets():
+        combat_potential = enemy_planet.num_ships + (enemy_planet.growth_rate * state.distance(source_planet.ID, target_planet.ID))
+        distance = state.distance(enemy_planet.ID, target_planet.ID)
+        total_weighted_combat_potential += combat_potential / distance
+
+    return total_weighted_combat_potential 
+    
+    
+# our nodes
+#       low enemy response our nodes (can evaluate surplus at a lower threshold)
+# enemy nodes / neutral nodes
+#       low enemy combat potential = higher value (enemy will not retake quickly)
+#       high enemy combat potential = lower value (enemy will retake quickly)
+# low response time nodes => lower value (enemy will retake quickly) 
+     
+
+# heuristic for choosing target planet. 
+def evaluate_vertex (state, source_planet, target_planet, predicted_base_cost):
     value = target_planet.growth_rate
     
-    # evaluate some number, response time, based on number of nearby planets, weighted by distance
+    growth_delta = target_planet.growth_rate * state.distance(source_planet.ID, target_planet.ID)
+    cost = predicted_base_cost + 1 + growth_delta
+    
+    # include response time (WIP)
+    
+    return value / cost
 
-def evaluate_response_time (state, target_planet):
-    # ships, distance + growth rate, number of enemy nodes
+def send_highest_value (state):
+    all_planets = state.my_planets() + state.enemy_planets() + state.neutral_planets()
     
-    pass
+    best_value = 0 # min value
+    best_target = None # target planet
+    best_source = None # source planet
+    best_cost = 0 # cost to capture
     
-     
+    for target_planet in all_planets:
+        simulated_planet_owner, simulated_planet_ships = simulate_planet(state, target_planet, 10, 99)
+        
+        if simulated_planet_owner == 1:
+            continue
+        
+        my_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, target_planet.ID))
+        for source_planet in my_planets_by_distance:
+            distance = state.distance(source_planet.ID, target_planet.ID)
+            growth_cost = target_planet.growth_rate * distance
+            cost = simulated_planet_ships + 1 + growth_cost
+            
+            # if capturable
+            if source_planet.num_ships > cost:
+                # heuristic 
+                value = evaluate_vertex(state, source_planet, target_planet, cost)
+                # if new best, update best value
+                if value > best_value:
+                    best_value = value
+                    best_target = target_planet
+                    best_source = source_planet
+                    best_cost = cost
+                    
+    if not best_target or not best_source:
+        return False
+    else:
+        return issue_order(state, best_source.ID, best_target.ID, best_cost)
+
 def send_first(state):
+    all_planets = state.my_planets() + state.enemy_planets() + state.neutral_planets()
     
-    for target_planet in state.my_planets() + state.enemy_planets() + state.neutral_planets():
+    for target_planet in all_planets:
         
         # simulate based on current state (in-transit fleets + growth rate)
         simulated_planet_owner, simulated_planet_ships = simulate_planet(state, target_planet, 10, 99)
