@@ -7,10 +7,10 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 0 71.0
+DEBUG:root:Order:1 3 25.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 18 19.0
+DEBUG:root:Order:1 4 73.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -53,9 +53,6 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 9 26.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -65,6 +62,9 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
+DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:1 6 23.0
+DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -76,6 +76,9 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:3 20 16.0
+DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -115,13 +118,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 9 30.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 5 18.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -131,9 +128,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 9 21.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -155,9 +149,6 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 5 16.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -177,9 +168,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 5 25.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -191,6 +179,9 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:1 9 57.0
+DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -230,40 +221,13 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
+DEBUG:root:Order:4 10 57.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
+DEBUG:root:Order:20 13 56.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -273,46 +237,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -322,52 +247,13 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
+DEBUG:root:Order:6 6 11.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
+DEBUG:root:Order:1 6 29.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 0 35.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -398,6 +284,12 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:4 19 16.0
+DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:3 22 59.0
+DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -417,16 +309,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 6 13.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 6 13.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 6 17.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -456,6 +339,9 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
+DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:6 14 62.0
+DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -466,43 +352,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 18 16.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -532,22 +382,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 0 23.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 18 51.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -557,9 +392,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 18 23.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -571,6 +403,9 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:9 13 38.0
+DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -580,17 +415,8 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 20 6.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 3.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 3.0
+DEBUG:root:Order:1 6 77.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -603,27 +429,6 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 9 19.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 9 19.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 9 24.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -633,9 +438,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 19 11.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -647,6 +449,12 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:20 15 79.0
+DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:19 21 57.0
+DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -657,9 +465,6 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 19 22.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -669,28 +474,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:6 0 44.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -700,28 +484,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -731,64 +494,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -798,40 +504,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 21 17.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -842,7 +515,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 20 23.0
+DEBUG:root:Order:10 8 76.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -865,9 +538,6 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 20 35.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -898,7 +568,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 15.0
+DEBUG:root:Order:4 16 79.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -911,7 +581,10 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
+DEBUG:root:Order:3 7 79.0
+DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Executing:Action: send_first
+DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
@@ -930,6 +603,9 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
+DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:1 13 84.0
+DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -950,15 +626,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 13 20.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 14 26.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 14 38.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -979,21 +646,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1004,30 +656,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 0 44.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1038,30 +666,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1072,69 +676,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 19 9.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 20 6.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1145,41 +686,18 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Result: Action: send_first -> Failure
+DEBUG:root:Result:  -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 18 25.0
+DEBUG:root:Order:9 0 102.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -1201,6 +719,9 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
+DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:19 17 103.0
+DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1212,7 +733,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 15 32.0
+DEBUG:root:Order:20 18 103.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -1235,7 +756,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 5.0
+DEBUG:root:Order:6 13 67.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -1257,15 +778,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 0 26.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 12.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 18 26.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1296,9 +808,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 9 36.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1319,9 +828,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:14 5 60.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1332,9 +838,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 17 38.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1345,18 +848,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1367,66 +858,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 19 11.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1437,54 +868,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1495,63 +878,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -1563,1106 +889,9 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
+DEBUG:root:Order:1 11 133.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 20 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 20 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 20 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 20 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 20 3.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:14 20 12.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 9 6.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:15 15 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 0 35.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 18 16.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 19 14.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 19 9.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 9.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 9.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 9.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 1 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 0 35.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:1 18 29.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Result: Action: send_first -> Failure
-DEBUG:root:Result:  -> Failure
-DEBUG:root:Result: Selector: Heuristic Selector -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Selector: Heuristic Selector
-DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 17 16.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -2672,6 +901,9 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
+DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:7 13 87.0
+DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2722,33 +954,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 9 6.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2759,29 +964,8 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 18 16.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 0 23.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 9.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 10 6.0
+DEBUG:root:Order:0 12 125.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -2793,18 +977,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 9.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:17 17 9.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 20 8.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 20 12.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2815,9 +987,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 9 12.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2828,12 +997,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 8.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 20 12.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2844,9 +1007,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 8.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2857,12 +1017,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 9 12.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 8.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2873,30 +1027,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 8.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 20 12.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2907,33 +1037,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 9 12.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 8.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2944,48 +1047,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 8.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -2996,57 +1057,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 8.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 20 8.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3057,62 +1067,8 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:0 0 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:20 5 21.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:19 19 8.0
+DEBUG:root:Order:9 13 99.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -3124,36 +1080,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 10 16.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3164,33 +1090,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3201,36 +1100,16 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Result: Action: send_first -> Failure
+DEBUG:root:Result:  -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3241,37 +1120,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -3281,40 +1130,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -3365,7 +1181,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 18.0
+DEBUG:root:Order:4 2 126.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -3378,9 +1194,6 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 18.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -3390,9 +1203,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:18 18 18.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3403,34 +1213,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -3440,37 +1223,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -3480,40 +1233,10 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
+DEBUG:root:Order:6 13 85.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -3523,43 +1246,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -3569,45 +1256,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3619,48 +1267,6 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -3670,52 +1276,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
 DEBUG:root:Result: Selector: Heuristic Selector -> Failure
@@ -3725,54 +1286,16 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Result: Action: send_first -> Failure
+DEBUG:root:Result:  -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3783,57 +1306,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3844,60 +1316,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:9 9 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:10 10 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3928,6 +1346,9 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
+DEBUG:root:Executing:Action: send_first
+DEBUG:root:Order:10 5 132.0
+DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3938,24 +1359,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3966,27 +1369,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -3997,26 +1379,8 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
+DEBUG:root:Order:7 13 106.0
 DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
@@ -4028,30 +1392,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -4062,30 +1402,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -4096,33 +1412,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -4133,33 +1422,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -4170,36 +1432,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -4210,36 +1442,6 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure
@@ -4250,39 +1452,26 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
-DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Result: Action: send_first -> Failure
+DEBUG:root:Result:  -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
-DEBUG:root:Order:5 5 2.0
-DEBUG:root:Result: Action: send_first -> Success
+DEBUG:root:Result: Action: send_first -> Failure
+DEBUG:root:Result:  -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:
 DEBUG:root:Executing:Action: send_first
 DEBUG:root:Result: Action: send_first -> Failure
 DEBUG:root:Result:  -> Failure

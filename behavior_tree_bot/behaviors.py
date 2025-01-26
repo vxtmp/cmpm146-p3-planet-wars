@@ -84,6 +84,24 @@ def rebalance(state):
                     fleet_strength = max(fleet_strength, 1)
                     return issue_order(state, planet.ID, target_planet.ID, fleet_strength)
      
+     
+# send from high response time nodes to high value enemy nodes
+def throwaway(state):
+    # evaluate surplus
+    # throw surplus high value enemy planets / low response time enemy planets
+    pass
+     
+def evaluate_vertex (state, target_planet, cost):
+    value = target_planet.growth_rate
+    
+    # evaluate some number, response time, based on number of nearby planets, weighted by distance
+
+def evaluate_response_time (state, target_planet):
+    # ships, distance + growth rate, number of enemy nodes
+    
+    pass
+    
+     
 def send_first(state):
     
     for target_planet in state.my_planets() + state.enemy_planets() + state.neutral_planets():

@@ -37,6 +37,7 @@ def setup_behavior_tree():
 
     new_selector = Selector(name='Heuristic Selector')
     rebalancer = Action(rebalance)
+    
     attack = Action(send_first)
     repeater = LoopUntilFailed(attack)
     new_selector.child_nodes = [repeater]
