@@ -81,10 +81,18 @@ def send_one_to_all(state):
             if my_fleet.destination_planet == neutral_planet.ID:
                 break
         else:
-            # select closest planet
-            closest_planet = min(state.my_planets(), key=lambda p: state.distance(p.ID, neutral_planet.ID))
             ships_to_conquer = neutral_planet.num_ships + 1
-            return issue_order(state, closest_planet.ID, neutral_planet.ID, ships_to_conquer)
+            ordered_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, neutral_planet.ID))
+            # select closest planet with enough ships to conquer
+            i = 1;
+            closest_planet = ordered_planets_by_distance[0]
+            while closest_planet.num_ships < ships_to_conquer and i < len(ordered_planets_by_distance):
+                # go to next planet
+                closest_planet = ordered_planets_by_distance[i]
+                i += 1
+            if closest_planet.num_ships >= ships_to_conquer:
+                return issue_order(state, closest_planet.ID, neutral_planet.ID, ships_to_conquer)
+            # else consider a joint attack
     return False
 
             
