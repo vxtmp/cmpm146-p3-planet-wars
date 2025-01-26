@@ -85,17 +85,29 @@ def rebalance(state):
                     return issue_order(state, planet.ID, target_planet.ID, fleet_strength)
      
 def send_first(state):
-    for target_planet in state.my_planets() + state.enemy_planets():
+    
+    for target_planet in state.my_planets() + state.enemy_planets() + state.neutral_planets():
+        
+        # simulate based on current state (in-transit fleets + growth rate)
         simulated_planet_owner, simulated_planet_ships = simulate_planet(state, target_planet, 10, 99)
+        
+        # if planet is projected to be owned by self, dont need to send.
         if simulated_planet_owner == 1:
             continue
+        
+        # iterate by distance (to prioritize closer source planet)
         my_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, target_planet.ID))
         for source_planet in my_planets_by_distance:
+            
+            # estimate cost of capturing planet
             distance = state.distance(source_planet.ID, target_planet.ID)
             growth_cost = target_planet.growth_rate * distance
             cost = simulated_planet_ships + 1 + growth_cost
+            
+            # if capturable, capture
             if source_planet.num_ships > cost:
                 return issue_order(state, source_planet.ID, target_planet.ID, cost)
+            
     return False
      
 def simulate_planet (state, planet, max_turn_depth, max_fleet_depth):
