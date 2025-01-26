@@ -35,9 +35,12 @@ def setup_behavior_tree():
     spread_action = Action(spread_to_weakest_neutral_planet)
     spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    heuristic_choice = Action(heuristic_send)
+    heuristic_selector = Selector(name='Heuristic Selector')
+    rebalancer = Action(rebalance)
+    heuristic = Action(heuristic_send)
+    heuristic_selector.child_nodes = [heuristic]
 
-    root.child_nodes = [heuristic_choice]
+    root.child_nodes = [heuristic_selector, rebalancer]
 
     logging.info('\n' + root.tree_to_string())
     return root

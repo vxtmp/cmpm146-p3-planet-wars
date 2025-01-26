@@ -1,721 +1,2041 @@
 INFO:root:
 Selector: High Level Ordering of Strategies
-| Action: heuristic_send
+| Selector: Heuristic Selector
+| | Action: heuristic_send
+| Action: rebalance
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:1 9 58.0
+DEBUG:root:Order:1 18 62.0
 DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 57.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:1 17 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 18 4.0
+DEBUG:root:Result: Action: rebalance -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 14.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 19.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 24.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 29.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 34.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 39.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 44.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 49.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 54.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:1 12 58.0
+DEBUG:root:Order:1 7 62.0
 DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 11.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 16.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 21.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 26.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:17 33.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:17 35.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:17 37.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:17 39.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:17 41.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:9 39.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:17 45.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 27.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 32.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 37.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 42.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 47.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 52.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 57.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:12 11 58.0
+DEBUG:root:Order:18 9 62.0
 DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:17 0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:18 1 4.0
+DEBUG:root:Result: Action: rebalance -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:9 50.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:9 51.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:9 52.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:9 53.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:1 12 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 7 43.0
+DEBUG:root:Result: Action: rebalance -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:1 12 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:18 1 39.0
+DEBUG:root:Result: Action: rebalance -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:1 25.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 39.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 44.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 49.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:0 42.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:0 45.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:11 2 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 9 10.0
+DEBUG:root:Result: Action: rebalance -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:0 51.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 9 40.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:7 9 12.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:18 7 12.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:7 0 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 7 20.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:18 1 19.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:0 54.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 21.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 18 4.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:7 1 4.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:1 15 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:7 1 43.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:18 9 58.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 9 16.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 9 14.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 9 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 9 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:7 0 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 7 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 7 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:1 4 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 1 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:4 0 35.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 1 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 1 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:4 0 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:4 0 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 15 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:7 11 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 7 40.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:1 15 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 15 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:18 15 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 15 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 9 15.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:4 0 24.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 4 36.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:4 0 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 4 44.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 0 46.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:15 16 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:4 1 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:15 0 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:7 10 62.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:4 1 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:4 1 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:15 11 185.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 15 10.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:7 0 61.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:11 19 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:7 19 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 8 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 14 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 16 6.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 16 7.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 8.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 9.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 10.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 11.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 16 12.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 16 13.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 16 14.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 16 15.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 16 16.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:1 22 17.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 21 5.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 5 5.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 5.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 5.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:1 22 5.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:1 22 5.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:1 22 5.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 16 61.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:4 0 52.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 0 171.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:7 21 182.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:9 21 150.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:15 7 161.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 8 74.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 21 193.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 8.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 7.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:18 11 316.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:7 11 193.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 7 57.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:9 1 19.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 9 71.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 9 50.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 21 26.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:8 20 43.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:11 6 40.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 0 161.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 0 178.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:1 21 59.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 21 14.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 22 150.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 22 193.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:6 22 22.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:18 22 83.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:9 6 66.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 6 3.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 6 178.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 0 282.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 9 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 9 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 9 20.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 16 81.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 0 5.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 0 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 0 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 0 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 21 29.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:22 15 109.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 16 40.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:22 9 117.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 16 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:6 11 125.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:0 8 125.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:22 13 133.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 6 95.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 16 84.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 16 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 16 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 16 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:6 11 82.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 6 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 16 110.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:13 11 121.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:0 11 49.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:6 11 35.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:8 22 100.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 8.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 9.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 9.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:13 22 10.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:6 13 95.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:9 6 90.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:6 9 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:6 13 20.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 8 8.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:9 13 9.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 10.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 7.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Order:16 21 7.0
+DEBUG:root:Result: Action: heuristic_send -> Success
+DEBUG:root:Result: Selector: Heuristic Selector -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:9 13 22.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:16 9 129.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:22 13 89.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:9 13 20.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 22 60.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:11 21 5.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:13 9 19.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:13 22 102.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:13 9 5.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:13 9 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:9 13 36.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 13 13.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:22 21 113.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:13 21 99.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 13 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:13 21 41.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:13 21 22.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:6 21 36.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 6 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 13 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:22 21 63.0
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 13 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Order:21 13 1
+DEBUG:root:Result: Action: rebalance -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
+DEBUG:root:Executing:Action: heuristic_send
+DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 26.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+DEBUG:root:Result: Action: rebalance -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Selector: Heuristic Selector
 DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 31.0 58.0
 DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 36.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 41.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:0 11 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:12 11 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:1 13 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:12 13 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 31.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 36.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 41.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:1 13 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:11 13 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:12 56.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:12 14 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:2 14 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:11 17 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 24.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 29.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 34.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 39.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 44.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 49.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:11 54.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:11 0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:13 0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:13 0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:14 49.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:14 51.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:14 53.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:14 15 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:14 57.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:14 15 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:0 39.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:0 42.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:0 45.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Bad order:0 48.0 58.0
-DEBUG:root:Result: Action: heuristic_send -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:0 11 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:0 11 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:12 11 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:13 21 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:13 21 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:1 21 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:2 21 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:0 18 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:15 14 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:15 14 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:12 14 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:2 14 58.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: heuristic_send
-DEBUG:root:Order:17 22 -1.0
-DEBUG:root:Result: Action: heuristic_send -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
+DEBUG:root:Result: Selector: Heuristic Selector -> Failure
+DEBUG:root:Executing:Action: rebalance
+ERROR:root:Error in bot.
+Traceback (most recent call last):
+  File "C:\Users\evoxt\OneDrive\Desktop\CMPM146 Game AI\P3\cmpm146-p3-planet-wars\behavior_tree_bot\bt_bot.py", line 62, in <module>
+    do_turn(planet_wars)
+  File "C:\Users\evoxt\OneDrive\Desktop\CMPM146 Game AI\P3\cmpm146-p3-planet-wars\behavior_tree_bot\bt_bot.py", line 50, in do_turn
+    behavior_tree.execute(planet_wars)
+  File "C:\Users\evoxt\OneDrive\Desktop\CMPM146 Game AI\P3\cmpm146-p3-planet-wars\behavior_tree_bot\bt_nodes.py", line 8, in logged_fn
+    result = fn(self, state)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\evoxt\OneDrive\Desktop\CMPM146 Game AI\P3\cmpm146-p3-planet-wars\behavior_tree_bot\bt_nodes.py", line 52, in execute
+    success = child_node.execute(state)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evoxt\OneDrive\Desktop\CMPM146 Game AI\P3\cmpm146-p3-planet-wars\behavior_tree_bot\bt_nodes.py", line 8, in logged_fn
+    result = fn(self, state)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\evoxt\OneDrive\Desktop\CMPM146 Game AI\P3\cmpm146-p3-planet-wars\behavior_tree_bot\bt_nodes.py", line 89, in execute
+    return self.action_function(state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evoxt\OneDrive\Desktop\CMPM146 Game AI\P3\cmpm146-p3-planet-wars\behavior_tree_bot\behaviors.py", line 74, in rebalance
+    weighted_fleet_distribution = total_fleet / total_growth_rate
+                                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
