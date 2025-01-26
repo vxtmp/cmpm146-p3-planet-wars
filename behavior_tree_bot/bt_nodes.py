@@ -66,6 +66,47 @@ class Sequence(Composite):
         else:  # for loop completed without failure; return success
             return True
 
+############################ Decorator Nodes ################################
+
+class LoopUntilFailed(Node):
+    def __init__(self, child_node, name=None):
+        self.child_node = child_node
+        self.name = name
+
+    @log_execution
+    def execute(self, state):
+        while self.child_node.execute(state):
+            pass
+        return False
+
+    def __str__(self):
+        return self.__class__.__name__ + ': ' + self.name if self.name else ''
+    
+class Inverter(Node):
+    def __init__(self, child_node, name=None):
+        self.child_node = child_node
+        self.name = name
+
+    @log_execution
+    def execute(self, state):
+        return not self.child_node.execute(state)
+
+    def __str__(self):
+        return self.__class__.__name__ + ': ' + self.name if self.name else ''
+    
+class Succeeder(Node):
+    def __init__(self, child_node, name=None):
+        self.child_node = child_node
+        self.name = name
+
+    @log_execution
+    def execute(self, state):
+        self.child_node.execute(state)
+        return True
+
+    def __str__(self):
+        return self.__class__.__name__ + ': ' + self.name if self.name else ''
+
 
 ############################### Leaf Nodes ##################################
 class Check(Node):

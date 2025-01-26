@@ -91,19 +91,61 @@ def simulate_planet (state, planet, max_turn_depth, max_fleet_depth):
     incoming_fleets = get_fleet_subset_targeting_planet(state.my_fleets() + state.enemy_fleets(), planet)
     incoming_fleets = sorted(incoming_fleets, key=lambda f: f.turns_remaining)
     
+    simulated_planet_owner = 0
+    simulated_planet_ships = planet.num_ships
+    
+    if planet.owner == 2:               # negative represents enemy
+        simulated_planet_owner = -1
+        simulated_planet_ships *= -1
+    if planet.owner == 1:
+        simulated_planet_owner = 1
+    
     i = 0
+    turns_counter = 0
     # simulate fleets in transit
     for fleet in incoming_fleets:
+        
+        fleet_sign = 0
+        if fleet.owner == 1:
+            fleet_sign = 1
+        elif fleet.owner == 2:
+            fleet_sign = -1
+            
         if fleet.turns_remaining > max_turn_depth:
             break
         if i > max_fleet_depth:
+            break
+        
+        turns_since_last_fleet = fleet.turns_remaining - turns_counter
+        turns_counter += turns_since_last_fleet
+        
+        # add growth rate
+        #                           sign (-1, 0, 1)          growth rate               time
+        #                                 |                        |                     |
+        #                                 V                        V                     V
+        simulated_planet_ships += simulated_planet_owner * planet.growth_rate * turns_since_last_fleet
+        
+        if simulated_planet_owner == 0: # neutral planet
+            simulated_planet_ships -= abs(fleet.num_ships)
+            if simulated_planet_ships <= 0:
+                simulated_planet_owner = fleet_sign
+                simulated_planet_ships = abs(simulated_planet_ships) * fleet_sign # negative for enemy
+        else:
+            start_ships = simulated_planet_ships
+            simulated_planet_ships += fleet_sign * fleet.num_ships
+            if (start_ships < 0 and simulated_planet_ships > 0) or (start_ships > 0 and simulated_planet_ships < 0):
+                simulated_planet_owner *= -1
             
-        if fleet.destination_planet == planet.ID:
-            continue
-        # simulate fleet
-        pass
-    # evaluate planet
-    pass
+        i += 1
+        
+    if simulated_planet_owner == -1:
+        simulated_planet_owner = 2
+    elif simulated_planet_owner == 1:
+        simulated_planet_owner = 1
+    elif simulated_planet_owner == 0:
+        simulated_planet_owner = 0
+        
+    return simulated_planet_owner, abs(simulated_planet_ships)
      
      
 
