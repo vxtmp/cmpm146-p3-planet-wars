@@ -40,39 +40,6 @@ def spread_to_weakest_neutral_planet(state):
         # (4) Send half the ships from my strongest planet to the weakest enemy planet.
         return issue_order(state, strongest_planet.ID, weakest_planet.ID, strongest_planet.num_ships / 2)
 
-def highest_value_spread(state):
-
-    # (1) Iterate over all my planets and neutral planets, and find the highest value
-    # according to a heuristic weighted by ships needed to conquer, ships available, growth rate,
-    # and distance to the planet.
-    highest_value = 0
-    closest_distance = 999999
-    closest_my_planet = None
-    closest_neutral_planet = None
-    for my_planet in state.my_planets():
-        for neutral_planet in state.neutral_planets():
-            distance = state.distance(my_planet.ID, neutral_planet.ID)
-            if distance < closest_distance:
-                closest_distance = distance
-                closest_my_planet = my_planet
-                closest_neutral_planet = neutral_planet
-
-
-    if not closest_my_planet or not closest_neutral_planet:
-        # No legal source or destination
-        return False
-    else:
-        # (4) Send half the ships from my strongest planet to the weakest enemy planet.
-        return issue_order(state, closest_my_planet.ID, closest_neutral_planet.ID, 1)
-    
-def planet_value_heuristic(my_planet, target_planet, distance):
-    return (target_planet.growth_rate / distance) / my_planet.num_ships
-
-def counter_enemy_fleet():
-    # if enemy has a fleet in flight, check its target if it will attack one of our planets
-    # 
-    pass
-
 #test function
 def send_one_to_all(state):
     # for each neutral planet, iterate over my fleets, if there isn't a fleet heading there, send 1
@@ -99,7 +66,8 @@ def send_one_to_all(state):
 def heuristic_send(state):
     
     heuristic_value = 0
-    best_value_planet = None
+    best_value_target_planet = None
+    best_value_source_planet = None
     
     sorted_my_all = sorted(state.my_fleets(), key=lambda f: f.turns_remaining)
     sorted_enemy_all = sorted(state.enemy_fleets(), key=lambda f: f.turns_remaining)
@@ -119,56 +87,102 @@ def heuristic_send(state):
         sorted_enemy_curr = get_fleet_subset_targeting_planet(sorted_enemy_all, planet)
                 
         # O (n)
-        planet_owner = 1 # coefficient to apply growth rate. 1 for me, -1 for enemy
-        this_planet_ships = planet.num_ships # planet ships starts positive for me as owner
+        planet_owner = 1 # coefficient to apply growth rate. 1 for me, -1 for enemy, 0 for neutral.
+        planet_ships = planet.num_ships
         
-        while my_iter < len(sorted_my_curr) and enemy_iter < len(sorted_enemy_curr): # loop both lists ============================================
-            
-            if sorted_my_curr[my_iter].turns_remaining < sorted_enemy_curr[enemy_iter].turns_remaining:
-                turns_since = sorted_my_curr[my_iter].turns_remaining - turn_counter
-                this_planet_ships += planet_owner * turns_since * planet.growth_rate
-                this_planet_ships += sorted_my_curr[my_iter].num_ships
-                if this_planet_ships < 0:
-                    planet_owner = -1
-                elif this_planet_ships > 0:
-                    planet_owner = 1
-                my_iter += 1
-                turn_counter += turns_since
-            else:
-                turns_since = sorted_enemy_curr[enemy_iter].turns_remaining - turn_counter
-                this_planet_ships += planet_owner * turns_since * planet.growth_rate
-                this_planet_ships -= sorted_enemy_curr[enemy_iter].num_ships
-                if this_planet_ships < 0:
-                    planet_owner = -1
-                elif this_planet_ships > 0:
-                    planet_owner = 1
-                enemy_iter += 1
-                turn_counter += turns_since
-                
-        if my_iter < len(sorted_my_curr): # loop the remaining list ============================================
-            for f in sorted_my_curr[my_iter:]:
-                this_planet_ships += planet_owner * f.turns_remaining * planet.growth_rate
-                this_planet_ships += f.num_ships
-                if this_planet_ships < 0:
-                    planet_owner = -1
-                elif this_planet_ships > 0:
-                    planet_owner = 1
-        elif enemy_iter < len(sorted_enemy_curr):
-            for f in sorted_enemy_curr[enemy_iter:]:
-                this_planet_ships += planet_owner * f.turns_remaining * planet.growth_rate
-                this_planet_ships -= f.num_ships
-                if this_planet_ships < 0:
-                    planet_owner = -1
-                elif this_planet_ships > 0:
-                    planet_owner = 1
-                    
+        closest_planet_that_can_attack = None
         if planet_owner == 1:
             heuristic_value = 0
         else:
-            heuristic_value = this_planet_ships
+            heuristic_value = 0
+            
+            # find closest attack planet
+            closest_planet_that_can_attack = None
+            closest_distance = 999999 # some large value. 
+            
+            # get a subset of my planets that doesn't include planet (planet can't attack self)
+            my_planets_subset = [p for p in state.my_planets() if p.ID != planet.ID]
+            
+            for my_planet in my_planets_subset:
+                growth_rate_adjusted = this_planet_ships + planet.growth_rate * state.distance(my_planet.ID, planet.ID)
+                if my_planet.num_ships > growth_rate_adjusted and state.distance(my_planet.ID, planet.ID) < closest_distance:
+                    closest_distance = state.distance(my_planet.ID, planet.ID)
+                    closest_planet_that_can_attack = my_planet
+                    
+            # if there is a planet that can attack, calculate heuristic value
+            if closest_planet_that_can_attack:
+                heuristic_value = planet_value_heuristic(planet, closest_distance)
                 
         # if heuristic value > best value, then update best value
+        if heuristic_value > best_value:
+            best_value = heuristic_value
+            best_value_target_planet = planet
+            best_value_source_planet = closest_planet_that_can_attack
+            
+    # iterate enemy nodes
+    # iterate neutral nodes
+    
+    # return issue order at best value
+    if best_value_target_planet and best_value_source_planet:
+        return issue_order(state, best_value_source_planet.ID, best_value_target_planet.ID, best_value_source_planet.num_ships)
+    else:
+        return False
         
+# returns planet owner; 1 for self, -1 for enemy, 0 for neutral
+# returns planet ships after simulation
+def simulate_fleets_for_my_planet(sorted_my_curr, sorted_enemy_curr, planet, planet_owner):
+    
+    this_planet_ships = planet.num_ships # planet ships starts positive for me as owner
+    
+    while my_iter < len(sorted_my_curr) and enemy_iter < len(sorted_enemy_curr): # loop both lists ============================================
+        
+        if sorted_my_curr[my_iter].turns_remaining < sorted_enemy_curr[enemy_iter].turns_remaining:
+            turns_since = sorted_my_curr[my_iter].turns_remaining - turn_counter
+            this_planet_ships += planet_owner * turns_since * planet.growth_rate
+            this_planet_ships += sorted_my_curr[my_iter].num_ships
+            if this_planet_ships < 0:
+                planet_owner = -1
+            elif this_planet_ships > 0:
+                planet_owner = 1
+            my_iter += 1
+            turn_counter += turns_since
+        else:
+            turns_since = sorted_enemy_curr[enemy_iter].turns_remaining - turn_counter
+            this_planet_ships += planet_owner * turns_since * planet.growth_rate
+            this_planet_ships -= sorted_enemy_curr[enemy_iter].num_ships
+            if this_planet_ships < 0:
+                planet_owner = -1
+            elif this_planet_ships > 0:
+                planet_owner = 1
+            enemy_iter += 1
+            turn_counter += turns_since
+            
+    if my_iter < len(sorted_my_curr): # loop the remaining list ============================================
+        for f in sorted_my_curr[my_iter:]:
+            this_planet_ships += planet_owner * f.turns_remaining * planet.growth_rate
+            this_planet_ships += f.num_ships
+            if this_planet_ships < 0:
+                planet_owner = -1
+            elif this_planet_ships > 0:
+                planet_owner = 1
+    elif enemy_iter < len(sorted_enemy_curr):
+        for f in sorted_enemy_curr[enemy_iter:]:
+            this_planet_ships += planet_owner * f.turns_remaining * planet.growth_rate
+            this_planet_ships -= f.num_ships
+            if this_planet_ships < 0:
+                planet_owner = -1
+            elif this_planet_ships > 0:
+                planet_owner = 1
+                
+    return planet_owner, this_planet_ships
+                    
+    
+
+def planet_value_heuristic(target_planet, distance):
+    difficulty = 1 + target_planet.growth_rate * distance + target_planet.num_ships
+    value = target_planet.growth_rate
+    return value / difficulty
+
 # helper function 
 def get_fleet_subset_targeting_planet (some_fleets, planet):
     fleet_subset = []
