@@ -95,7 +95,7 @@ def send_one_to_all(state):
             # else consider a joint attack
     return False
      
-# helper function
+# simulates in-transit fleets for all iterated planets and assigns heuristic value before deciding.
 def heuristic_send(state):
     
     heuristic_value = 0
@@ -115,36 +115,65 @@ def heuristic_send(state):
         turn_counter = 0
         
         # for each fleet in sorted_my_all, if the destination is the planet, pop from all, push to my_curr
-        sorted_my_curr = []
-        sorted_enemy_curr = []
-        for f in sorted_my_all:
-            if f.destination_planet == planet.ID:
-                sorted_my_curr.append(f)
-                sorted_my_all.remove(f)
-        for f in sorted_enemy_all:
-            if f.destination_planet == planet.ID:
-                sorted_enemy_curr.append(f)
-                sorted_enemy_all.remove(f)
+        sorted_my_curr = get_fleet_subset_targeting_planet(sorted_my_all, planet)
+        sorted_enemy_curr = get_fleet_subset_targeting_planet(sorted_enemy_all, planet)
                 
         # O (n)
         planet_owner = 1 # coefficient to apply growth rate. 1 for me, -1 for enemy
-        this_planet_ships = planet.num_ships
-        while my_iter < len(sorted_my_curr) and enemy_iter < len(sorted_enemy_curr):
+        this_planet_ships = planet.num_ships # planet ships starts positive for me as owner
+        
+        while my_iter < len(sorted_my_curr) and enemy_iter < len(sorted_enemy_curr): # loop both lists ============================================
+            
             if sorted_my_curr[my_iter].turns_remaining < sorted_enemy_curr[enemy_iter].turns_remaining:
-                this_planet_ships += planet_owner * sorted_my_curr[my_iter].turns_remaining * planet.growth_rate
+                turns_since = sorted_my_curr[my_iter].turns_remaining - turn_counter
+                this_planet_ships += planet_owner * turns_since * planet.growth_rate
                 this_planet_ships += sorted_my_curr[my_iter].num_ships
                 if this_planet_ships < 0:
                     planet_owner = -1
-                else:
+                elif this_planet_ships > 0:
                     planet_owner = 1
                 my_iter += 1
+                turn_counter += turns_since
             else:
-                this_planet_ships += planet_owner * sorted_enemy_curr[enemy_iter].turns_remaining * planet.growth_rate
+                turns_since = sorted_enemy_curr[enemy_iter].turns_remaining - turn_counter
+                this_planet_ships += planet_owner * turns_since * planet.growth_rate
                 this_planet_ships -= sorted_enemy_curr[enemy_iter].num_ships
                 if this_planet_ships < 0:
                     planet_owner = -1
-                else:
+                elif this_planet_ships > 0:
                     planet_owner = 1
                 enemy_iter += 1
+                turn_counter += turns_since
+                
+        if my_iter < len(sorted_my_curr): # loop the remaining list ============================================
+            for f in sorted_my_curr[my_iter:]:
+                this_planet_ships += planet_owner * f.turns_remaining * planet.growth_rate
+                this_planet_ships += f.num_ships
+                if this_planet_ships < 0:
+                    planet_owner = -1
+                elif this_planet_ships > 0:
+                    planet_owner = 1
+        elif enemy_iter < len(sorted_enemy_curr):
+            for f in sorted_enemy_curr[enemy_iter:]:
+                this_planet_ships += planet_owner * f.turns_remaining * planet.growth_rate
+                this_planet_ships -= f.num_ships
+                if this_planet_ships < 0:
+                    planet_owner = -1
+                elif this_planet_ships > 0:
+                    planet_owner = 1
+                    
+        if planet_owner == 1:
+            heuristic_value = 0
+        else:
+            heuristic_value = this_planet_ships
                 
         # if heuristic value > best value, then update best value
+        
+# helper function 
+def get_fleet_subset_targeting_planet (some_fleets, planet):
+    fleet_subset = []
+    for fleet in some_fleets.fleets:
+        if fleet.destination_planet == planet.ID:
+            fleet_subset.append(fleet)
+            some_fleets.remove(fleet)
+    return fleet_subset
