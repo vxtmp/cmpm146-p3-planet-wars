@@ -22,27 +22,45 @@ from planet_wars import PlanetWars, finish_turn
 # You have to improve this tree or create an entire new one that is capable
 # of winning against all the 5 opponent bots
 def setup_behavior_tree():
+    
+    # if early game, 
+    #     focus on rapid expansion, prioritizing captures by distance
+    # if not early game, but not largest fleet
+    #     defensive / evasive / tacking
+    # if not early game, and largest fleet
+    #     greedy heuristic (send_highest_value)
+    # if late game (how do we detect this?)
+    #     include trading down with greedy capture 
+    
     # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
-
-    # offensive_plan = Sequence(name='Offensive Strategy')
-    # largest_fleet_check = Check(have_largest_fleet)
-    # attack = Action(attack_weakest_enemy_planet)
-    # offensive_plan.child_nodes = [largest_fleet_check, attack]
-
-    # spread_sequence = Sequence(name='Spread Strategy')
-    # neutral_planet_check = Check(if_neutral_planet_available)
-    # spread_action = Action(spread_to_weakest_neutral_planet)
-    # spread_sequence.child_nodes = [neutral_planet_check, spread_action]
-
     
-    new_selector = Selector(name='Heuristic Selector')
+    early_game = Selector(name='Early Game Selector') # expansion vs reposition for expansion
+    expansion = Action(distance_priority)
+    expansionRepeater = LoopUntilFailed(expansion)
+    
+    offensive = Selector(name='Offensive Selector') # greedy heuristic vs reposition at frontline
     attack = Action(send_highest_value)
-    repeater = LoopUntilFailed(attack)
+    attackRepeater = LoopUntilFailed(attack)
     
-    rebalancer = Action(rebalance)
+    defensive = Selector(name='Defensive Selector') # evasion + tacking
     
-    new_selector.child_nodes = [repeater]
+    
+    ifEarlyGame = Check(if_early_game)
+    haveLargestFleet = Check(have_largest_fleet)
+    
+    # reposition. move ships toward "frontline"
+    # average position of owned planets, move ships away from that position
+    
+    
+    
+    # evasion
+    # tacking
+    # repeater
+    
+    # rebalancer = Action(rebalance)
+    
+    new_selector.child_nodes = [attackRepeater]
 
     root.child_nodes = [new_selector]
 

@@ -2,77 +2,50 @@ import sys
 sys.path.insert(0, '../')
 from planet_wars import issue_order
 
+def flee_planet (state):
+    # after check (if incoming capture), send all ships to (?)
+    
+    pass
 
-
-def attack_weakest_enemy_planet(state):
-    # (1) If we currently have a fleet in flight, abort plan.
-    if len(state.my_fleets()) >= 1:
-        return False
-
-    # (2) Find my strongest planet.
-    strongest_planet = max(state.my_planets(), key=lambda t: t.num_ships, default=None)
-
-    # (3) Find the weakest enemy planet.
-    weakest_planet = min(state.enemy_planets(), key=lambda t: t.num_ships, default=None)
-
-    if not strongest_planet or not weakest_planet:
-        # No legal source or destination
+# good for early game expansion. target nearby nodes first.
+# uses 1 / distance instead of evaluate_vertex()
+def distance_priority (state):
+    all_planets = state.my_planets() + state.enemy_planets() + state.neutral_planets()
+    
+    best_value = 0 # min value
+    best_target = None # target planet
+    best_source = None # source planet
+    best_cost = 0 # cost to capture
+    
+    for target_planet in all_planets:
+        simulated_planet_owner, simulated_planet_ships = simulate_planet(state, target_planet, 10, 99)
+        
+        if simulated_planet_owner == 1:
+            continue
+        
+        my_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, target_planet.ID))
+        for source_planet in my_planets_by_distance:
+            
+            distance = state.distance(source_planet.ID, target_planet.ID)
+            growth_cost = target_planet.growth_rate * distance
+            cost = simulated_planet_ships + 1 + growth_cost
+            
+            # if capturable
+            if source_planet.num_ships > cost:
+                # heuristic 
+                value = 1 / distance
+                # if new best, update best value
+                if value > best_value:
+                    best_value = value
+                    best_target = target_planet
+                    best_source = source_planet
+                    best_cost = cost
+                    
+    if not best_target or not best_source:
         return False
     else:
-        # (4) Send half the ships from my strongest planet to the weakest enemy planet.
-        return issue_order(state, strongest_planet.ID, weakest_planet.ID, strongest_planet.num_ships / 2)
-
-
-def spread_to_weakest_neutral_planet(state):
-    # (1) If we currently have a fleet in flight, just do nothing.
-    if len(state.my_fleets()) >= 1:
-        return False
-
-    # (2) Find my strongest planet.
-    strongest_planet = max(state.my_planets(), key=lambda p: p.num_ships, default=None)
-
-    # (3) Find the weakest neutral planet.
-    weakest_planet = min(state.neutral_planets(), key=lambda p: p.num_ships, default=None)
-
-    if not strongest_planet or not weakest_planet:
-        # No legal source or destination
-        return False
-    else:
-        # (4) Send half the ships from my strongest planet to the weakest enemy planet.
-        return issue_order(state, strongest_planet.ID, weakest_planet.ID, strongest_planet.num_ships / 2)
-
-#test function
-def send_one_to_all(state):
-    # for each neutral planet, iterate over my fleets, if there isn't a fleet heading there, send 1
-    for neutral_planet in state.neutral_planets():
-        for my_fleet in state.my_fleets():
-            if my_fleet.destination_planet == neutral_planet.ID:
-                break
-        else:
-            ships_to_conquer = neutral_planet.num_ships + 1
-            ordered_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, neutral_planet.ID))
-            # select closest planet with enough ships to conquer
-            i = 1;
-            closest_planet = ordered_planets_by_distance[0]
-            while closest_planet.num_ships < ships_to_conquer and i < len(ordered_planets_by_distance):
-                # go to next planet
-                closest_planet = ordered_planets_by_distance[i]
-                i += 1
-            if closest_planet.num_ships >= ships_to_conquer:
-                return issue_order(state, closest_planet.ID, neutral_planet.ID, ships_to_conquer)
-            # else consider a joint attack
-    return False
-     
-def send_from_farthest_to_frontline(state):
-    # determine which owned planet is farthest from average position of enemies
-    # determine which owned planet is closer to average position of enemies
-    for my_planet in state.my_planets():
-        # calculate average enemy position
-        avg_enemy_position = sum(enemy_planet.num_ships for enemy_planet in state.enemy_planets()) / len(state.enemy_planets())
-        avg_enemy_position = int(avg_enemy_position)
-        # calculate distance from average enemy position
-        distance_from_avg = state.distance(my_planet.ID, avg_enemy_position)
-        # if distance is far,
+        return issue_order(state, best_source.ID, best_target.ID, best_cost)
+    
      
 def rebalance(state):
     # get total fleet, get total growth rate, weight fleet distribution to each planet by growth rate
@@ -116,11 +89,17 @@ def rebalance(state):
                 #     fleet_strength = max(fleet_strength, 1)
                 #     return issue_order(state, planet.ID, target_planet.ID, fleet_strength)
           
+    difference_threshold = 10
     if not lowest_planet or not highest_planet:
         return False
     else:
-        fleet_strength = highest_planet.num_ships - 1
-        return issue_order(state, highest_planet.ID, lowest_planet.ID, fleet_strength)
+        if highest_surplus / lowest_need > difference_threshold:
+            fleet_strength = highest_planet.num_ships - 1
+            if fleet_strength <= 0:
+                return False
+            return issue_order(state, highest_planet.ID, lowest_planet.ID, fleet_strength)
+        else:
+            return False
      
      
 # send from high response time nodes to high value enemy nodes
@@ -161,6 +140,8 @@ def evaluate_vertex (state, source_planet, target_planet, predicted_base_cost):
     
     return value / cost
 
+# greedy behavior. targets all owner changeable planets (defense and offense)
+# good for aggressive playstyle when ahead. 
 def send_highest_value (state):
     all_planets = state.my_planets() + state.enemy_planets() + state.neutral_planets()
     
@@ -177,6 +158,8 @@ def send_highest_value (state):
         
         my_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, target_planet.ID))
         for source_planet in my_planets_by_distance:
+            
+            
             distance = state.distance(source_planet.ID, target_planet.ID)
             growth_cost = target_planet.growth_rate * distance
             cost = simulated_planet_ships + 1 + growth_cost
@@ -197,6 +180,7 @@ def send_highest_value (state):
     else:
         return issue_order(state, best_source.ID, best_target.ID, best_cost)
 
+# deprecated for send_highest_value
 def send_first(state):
     all_planets = state.my_planets() + state.enemy_planets() + state.neutral_planets()
     
@@ -285,9 +269,6 @@ def simulate_planet (state, planet, max_turn_depth, max_fleet_depth):
         
     return simulated_planet_owner, abs(simulated_planet_ships)
      
-     
-
-                    
 def planet_value_heuristic(target_planet, distance):
     difficulty = 1 + target_planet.growth_rate * distance + target_planet.num_ships
     value = target_planet.growth_rate
@@ -300,3 +281,28 @@ def get_fleet_subset_targeting_planet (some_fleets, planet):
         if fleet.destination_planet == planet.ID:
             fleet_subset.append(fleet)
     return fleet_subset
+
+
+# =========================== deprecated functions ==============================
+# test function
+def send_one_to_all(state):
+    # for each neutral planet, iterate over my fleets, if there isn't a fleet heading there, send 1
+    for neutral_planet in state.neutral_planets():
+        for my_fleet in state.my_fleets():
+            if my_fleet.destination_planet == neutral_planet.ID:
+                break
+        else:
+            ships_to_conquer = neutral_planet.num_ships + 1
+            ordered_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, neutral_planet.ID))
+            # select closest planet with enough ships to conquer
+            i = 1;
+            closest_planet = ordered_planets_by_distance[0]
+            while closest_planet.num_ships < ships_to_conquer and i < len(ordered_planets_by_distance):
+                # go to next planet
+                closest_planet = ordered_planets_by_distance[i]
+                i += 1
+            if closest_planet.num_ships >= ships_to_conquer:
+                return issue_order(state, closest_planet.ID, neutral_planet.ID, ships_to_conquer)
+            # else consider a joint attack
+    return False
+     
