@@ -9,13 +9,15 @@ sys.path.append(parentdir)
 from planet_wars import PlanetWars, issue_order, finish_turn
 from behavior_tree_bot.behaviors import *
 
-def loop_send_highest_until_fail(state):
-    while send_highest_value(state):
-        pass
-    return False
+def loop_send_behavior(state):
+    try:
+        while send_highest_value(state):
+            pass
+    except StopIteration:
+        return
 
 def do_turn(state):
-    loop_send_highest_until_fail(state)
+    loop_send_behavior(state)
 
 
 if __name__ == '__main__':
