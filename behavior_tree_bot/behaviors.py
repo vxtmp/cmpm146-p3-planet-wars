@@ -2,49 +2,56 @@ import sys
 sys.path.insert(0, '../')
 from planet_wars import issue_order
 
-def flee_planet (state):
-    # after check (if incoming capture), send all ships to (?)
-    
-    pass
-
 # good for early game expansion. target nearby nodes first.
 # uses 1 / distance instead of evaluate_vertex()
-def distance_priority (state):
+def distance_priority(state):
     all_planets = state.my_planets() + state.enemy_planets() + state.neutral_planets()
-    
-    best_value = 0 # min value
-    best_target = None # target planet
-    best_source = None # source planet
-    best_cost = 0 # cost to capture
-    
+
+    best_value = float('inf')  # Initialize to max value for distance minimization
+    best_target = None  # target planet
+    best_source = None  # source planet
+    best_cost = 0  # cost to capture
+
+    # Simulate the planets and assess the best target for expansion
     for target_planet in all_planets:
-        simulated_planet_owner, simulated_planet_ships = simulate_planet(state, target_planet, 10, 99)
-        
-        if simulated_planet_owner == 1:
+        # Skip planets I already own
+        if target_planet.owner == 1:
             continue
         
+        # Calculate the minimum cost to capture the planet based on simulation
+        simulated_planet_owner, simulated_planet_ships = simulate_planet(state, target_planet, 10, 99)
+        
+        # If the simulation suggests the planet is very difficult to capture, skip it
+        if simulated_planet_owner == 1:
+            continue  # Skip if planet is already owned by me
+        
+        # Sort my planets by distance to the target planet to minimize travel time
         my_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, target_planet.ID))
         for source_planet in my_planets_by_distance:
+            # Calculate the effective distance (including a small buffer)
+            distance = state.distance(source_planet.ID, target_planet.ID) + 1  # 1 turn buffer
             
-            distance = state.distance(source_planet.ID, target_planet.ID)
+            # Calculate the cost of capturing this planet, considering the planet's growth rate
             growth_cost = target_planet.growth_rate * distance
-            cost = simulated_planet_ships + 1 + growth_cost
-            
-            # if capturable
+            cost = simulated_planet_ships + 1 + growth_cost  # Total cost of capturing the planet
+
+            # Ensure we have more ships than the cost to capture
             if source_planet.num_ships > cost:
-                # heuristic 
-                value = 1 / distance
-                # if new best, update best value
-                if value > best_value:
+                value = distance  # Shorter distances are better
+
+                # If this target is more favorable, update the best values
+                if value < best_value:
                     best_value = value
                     best_target = target_planet
                     best_source = source_planet
                     best_cost = cost
-                    
-    if not best_target or not best_source:
-        return False
-    else:
+
+    # If a target has been found, issue the order to capture it
+    if best_target and best_source:
         return issue_order(state, best_source.ID, best_target.ID, best_cost)
+    
+    # If no target is found, return False
+    return False
     
      
 def rebalance(state):
@@ -101,13 +108,6 @@ def rebalance(state):
         else:
             return False
      
-     
-# send from high response time nodes to high value enemy nodes
-def throwaway(state):
-    # evaluate surplus. 
-    # throw surplus high value enemy planets / low response time enemy planets
-    pass
-     
 # evaluates enemy combat potential targeting this planet.
 def evaluate_combat_potential (state, source_planet, target_planet):
     # ships, distance + growth rate, number of enemy nodes
@@ -135,8 +135,6 @@ def evaluate_vertex (state, source_planet, target_planet, predicted_base_cost):
     
     growth_delta = target_planet.growth_rate * state.distance(source_planet.ID, target_planet.ID)
     cost = predicted_base_cost + 1 + growth_delta
-    
-    # include response time (WIP)
     
     return value / cost
 
@@ -179,34 +177,6 @@ def send_highest_value (state):
         return False
     else:
         return issue_order(state, best_source.ID, best_target.ID, best_cost)
-
-# deprecated for send_highest_value
-def send_first(state):
-    all_planets = state.my_planets() + state.enemy_planets() + state.neutral_planets()
-    
-    for target_planet in all_planets:
-        
-        # simulate based on current state (in-transit fleets + growth rate)
-        simulated_planet_owner, simulated_planet_ships = simulate_planet(state, target_planet, 10, 99)
-        
-        # if planet is projected to be owned by self, dont need to send.
-        if simulated_planet_owner == 1:
-            continue
-        
-        # iterate by distance (to prioritize closer source planet)
-        my_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, target_planet.ID))
-        for source_planet in my_planets_by_distance:
-            
-            # estimate cost of capturing planet
-            distance = state.distance(source_planet.ID, target_planet.ID)
-            growth_cost = target_planet.growth_rate * distance
-            cost = simulated_planet_ships + 1 + growth_cost
-            
-            # if capturable, capture
-            if source_planet.num_ships > cost:
-                return issue_order(state, source_planet.ID, target_planet.ID, cost)
-            
-    return False
      
 def simulate_planet (state, planet, max_turn_depth, max_fleet_depth):
     # get all fleets in transit to planet
@@ -274,6 +244,116 @@ def planet_value_heuristic(target_planet, distance):
     value = target_planet.growth_rate
     return value / difficulty
 
+def trade_down(state):
+    MAX_DISTANCE = 15  # nearby targets
+    BUFFER_MULTIPLIER = 1.2
+
+    # sort enemy planets by ship count and growth rate
+    targets = sorted(state.enemy_planets(), key=lambda p: (p.num_ships, -p.growth_rate))
+
+    # incoming fleets for each enemy planet
+    incoming_fleets_map = {}
+    for fleet in state.enemy_fleets():
+        if fleet.destination_planet not in incoming_fleets_map:
+            incoming_fleets_map[fleet.destination_planet] = 0
+        incoming_fleets_map[fleet.destination_planet] += fleet.num_ships
+
+    # total available ships for my planets
+    total_available_ships = sum(max(p.num_ships - 10, 0) for p in state.my_planets())
+
+    for target in targets:
+        # planet too far away, skip
+        if min(state.distance(my_p.ID, target.ID) for my_p in state.my_planets()) > MAX_DISTANCE:
+            continue
+        
+        # required ships with buffer and incoming fleets
+        incoming_fleets = incoming_fleets_map.get(target.ID, 0)
+        required_ships = int((target.num_ships + incoming_fleets) * BUFFER_MULTIPLIER)
+
+        # total available ships not enough, skip
+        if required_ships > total_available_ships:
+            continue
+
+        # skip if already enough ships are sent
+        if sum(fleet.num_ships for fleet in state.my_fleets() if fleet.destination_planet == target.ID) >= required_ships:
+            continue
+
+        # Gather ships from nearby planets
+        sources = sorted(
+            [p for p in state.my_planets() if state.distance(p.ID, target.ID) <= MAX_DISTANCE],
+            key=lambda p: (state.distance(p.ID, target.ID), -p.num_ships)
+        )
+
+        orders = []
+        total_sent = 0
+        for source in sources:
+            # calculate available fleets
+            fleets = max(10, int(source.growth_rate * 2))
+            available_fleets = max(source.num_ships - fleets, 0)
+            if available_fleets <= 0:
+                continue
+
+            send_ships = min(available_fleets, required_ships - total_sent)
+            orders.append((source.ID, target.ID, send_ships))
+            total_sent += send_ships
+            if total_sent >= required_ships:
+                break
+
+        # ixecute orders if sufficient ships were gathered
+        if total_sent >= required_ships:
+            for order in orders:
+                issue_order(state, *order)
+            return True
+    return False
+
+def defensive_fortification(state):
+    # priority for high-growth planets and planets with large numbers of ships
+    priority_planets = sorted(
+        state.my_planets(),
+        key=lambda p: (p.growth_rate, p.num_ships),
+        reverse=True
+    )
+
+    enemy_fleets = state.enemy_fleets()
+    orders = []
+    
+    # calculate threat levels for each planet and prioritize based on growth
+    for planet in priority_planets:
+        threat_level = 0
+        for fleet in enemy_fleets:
+            if fleet.destination_planet == planet.ID:
+                threat_level += fleet.num_ships
+        # reinforce the planet if threat exists
+        if threat_level > 0:
+            # more ships needed for higher threat
+            required_ships = int(threat_level * 1.2)
+            available_fleets = planet.num_ships - max(10, int(planet.growth_rate * 2))
+            if available_fleets > 0:
+                # look for planets to send ships from
+                sources = sorted(
+                    [p for p in state.my_planets() if p.ID != planet.ID],
+                    key=lambda p: (state.distance(p.ID, planet.ID), -p.num_ships)
+                )
+                
+                total_sent = 0
+                for source in sources:
+                    available = max(source.num_ships - max(10, int(source.growth_rate * 2)), 0)
+                    if available <= 0:
+                        continue
+                    # overcommitment prevention
+                    send_ships = min(available, required_ships - total_sent)
+                    orders.append((source.ID, planet.ID, send_ships))
+                    total_sent += send_ships
+                    # stop if sufficient reinforcements are committed
+                    if total_sent >= required_ships:
+                        break
+    
+    # issue order if the reinforcement are sufficient
+    for order in orders:
+        issue_order(state, *order)
+
+    return True
+
 # helper function 
 def get_fleet_subset_targeting_planet (some_fleets, planet):
     fleet_subset = []
@@ -281,7 +361,6 @@ def get_fleet_subset_targeting_planet (some_fleets, planet):
         if fleet.destination_planet == planet.ID:
             fleet_subset.append(fleet)
     return fleet_subset
-
 
 # =========================== deprecated functions ==============================
 # test function
@@ -305,4 +384,30 @@ def send_one_to_all(state):
                 return issue_order(state, closest_planet.ID, neutral_planet.ID, ships_to_conquer)
             # else consider a joint attack
     return False
-     
+
+def send_first(state):
+    all_planets = state.my_planets() + state.enemy_planets() + state.neutral_planets()
+    
+    for target_planet in all_planets:
+        
+        # simulate based on current state (in-transit fleets + growth rate)
+        simulated_planet_owner, simulated_planet_ships = simulate_planet(state, target_planet, 10, 99)
+        
+        # if planet is projected to be owned by self, dont need to send.
+        if simulated_planet_owner == 1:
+            continue
+        
+        # iterate by distance (to prioritize closer source planet)
+        my_planets_by_distance = sorted(state.my_planets(), key=lambda p: state.distance(p.ID, target_planet.ID))
+        for source_planet in my_planets_by_distance:
+            
+            # estimate cost of capturing planet
+            distance = state.distance(source_planet.ID, target_planet.ID)
+            growth_cost = target_planet.growth_rate * distance
+            cost = simulated_planet_ships + 1 + growth_cost
+            
+            # if capturable, capture
+            if source_planet.num_ships > cost:
+                return issue_order(state, source_planet.ID, target_planet.ID, cost)
+            
+    return False

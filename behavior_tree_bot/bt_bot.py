@@ -34,35 +34,35 @@ def setup_behavior_tree():
     
     # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
-    
-    early_game = Selector(name='Early Game Selector') # expansion vs reposition for expansion
-    expansion = Action(distance_priority)
-    expansionRepeater = LoopUntilFailed(expansion)
-    
-    offensive = Selector(name='Offensive Selector') # greedy heuristic vs reposition at frontline
+
+    # Early game
+    early_game_sequence = Sequence(name='Early Game Sequence')
+    early_game_check = Check(if_early_game)
     attack = Action(send_highest_value)
     attackRepeater = LoopUntilFailed(attack)
+    early_game_sequence.child_nodes = [early_game_check, attackRepeater]
     
-    defensive = Selector(name='Defensive Selector') # evasion + tacking
-    
-    
-    ifEarlyGame = Check(if_early_game)
-    haveLargestFleet = Check(have_largest_fleet)
-    
-    # reposition. move ships toward "frontline"
-    # average position of owned planets, move ships away from that position
-    
-    
-    
-    # evasion
-    # tacking
-    # repeater
-    
-    # rebalancer = Action(rebalance)
-    
-    new_selector.child_nodes = [attackRepeater]
+    # Late game
+    late_game_sequence = Sequence(name='Late Game Sequence')
+    late_game_check = Check(if_late_game)
+    fleet_size_selector = Selector(name='Fleet Size in Late Game')
 
-    root.child_nodes = [new_selector]
+    # Offensive late game
+    offensive_late_game_sequence = Sequence(name='Offensive Late Game Strategy')
+    largest_fleet_check = Check(have_largest_fleet)
+    trade_down_action = Action(trade_down)
+    offensive_late_game_sequence.child_nodes = [largest_fleet_check, trade_down_action, attackRepeater]
+
+    # Defensive late game
+    defensive_late_game_sequence = Sequence(name='Defensive Late Game Strategy')
+    not_largest_fleet_check = Check(have_smallest_fleet)
+    fortification = Action(defensive_fortification)
+    defensive_late_game_sequence.child_nodes = [not_largest_fleet_check, fortification, attackRepeater]
+
+    fleet_size_selector.child_nodes = [offensive_late_game_sequence, defensive_late_game_sequence]
+    late_game_sequence.child_nodes = [late_game_check, fleet_size_selector]
+
+    root.child_nodes = [early_game_sequence, late_game_sequence]
 
     logging.info('\n' + root.tree_to_string())
     return root

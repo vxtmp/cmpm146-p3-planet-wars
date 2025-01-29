@@ -69,35 +69,34 @@ class Sequence(Composite):
 ############################ Decorator Nodes ################################
 
 class LoopUntilFailed(Node):
-    def __init__(self, child_node, name=None):
-        self.child_node = child_node
-        self.name = name
+    def __init__(self, node):
+        self.child_node = node
 
     @log_execution
     def execute(self, state):
         while self.child_node.execute(state):
             pass
-        return False
+        return True
 
     def __str__(self):
-        return self.__class__.__name__ + ': ' + self.name if self.name else ''
+        return self.__class__.__name__ + ': ' + str(self.child_node)
     
+
 class Inverter(Node):
-    def __init__(self, child_node, name=None):
-        self.child_node = child_node
-        self.name = name
+    def __init__(self, node):
+        self.child_node = node
 
     @log_execution
     def execute(self, state):
         return not self.child_node.execute(state)
 
     def __str__(self):
-        return self.__class__.__name__ + ': ' + self.name if self.name else ''
+        return self.__class__.__name__ + ': ' + str(self.child_node)
+    
     
 class Succeeder(Node):
-    def __init__(self, child_node, name=None):
-        self.child_node = child_node
-        self.name = name
+    def __init__(self, node):
+        self.child_node = node
 
     @log_execution
     def execute(self, state):
@@ -105,7 +104,7 @@ class Succeeder(Node):
         return True
 
     def __str__(self):
-        return self.__class__.__name__ + ': ' + self.name if self.name else ''
+        return self.__class__.__name__ + ': ' + str(self.child_node)
 
 
 ############################### Leaf Nodes ##################################
