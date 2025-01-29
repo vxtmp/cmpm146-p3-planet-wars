@@ -34,16 +34,16 @@ def setup_behavior_tree():
     
         # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
-    new_sequence = Sequence(name='Heuristic Sequence')
+    do_everything = Sequence(name='Heuristic Sequence')
     trade_down_action = Action(trade_down)
     largest_fleet = Check(have_largest_fleet)
     no_neutral_planet_check = Check(no_neutral_planets)
     attack = Action(send_highest_value)
     repeater = LoopUntilFailed(attack)
 
-    new_sequence.child_nodes = [repeater, largest_fleet, no_neutral_planet_check, trade_down_action]
+    do_everything.child_nodes = [repeater, largest_fleet, no_neutral_planet_check, trade_down_action]
 
-    root.child_nodes = [new_sequence]
+    root.child_nodes = [do_everything]
 
     logging.info('\n' + root.tree_to_string())
     return root

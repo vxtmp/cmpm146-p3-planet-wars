@@ -286,68 +286,6 @@ def trade_down_heuristic(state, target_planet):
 
     return heuristic
 
-
-    # MAX_DISTANCE = 15  # nearby targets
-    # BUFFER_MULTIPLIER = 1.2
-
-    # # sort enemy planets by ship count and growth rate
-    # targets = sorted(state.enemy_planets(), key=lambda p: (p.num_ships, -p.growth_rate))
-
-    # # incoming fleets for each enemy planet
-    # incoming_fleets_map = {}
-    # for fleet in state.enemy_fleets():
-    #     if fleet.destination_planet not in incoming_fleets_map:
-    #         incoming_fleets_map[fleet.destination_planet] = 0
-    #     incoming_fleets_map[fleet.destination_planet] += fleet.num_ships
-
-    # # total available ships for my planets
-    # total_available_ships = sum(max(p.num_ships - 10, 0) for p in state.my_planets())
-
-    # for target in targets:
-    #     # planet too far away, skip
-    #     if min(state.distance(my_p.ID, target.ID) for my_p in state.my_planets()) > MAX_DISTANCE:
-    #         continue
-        
-    #     # required ships with buffer and incoming fleets
-    #     incoming_fleets = incoming_fleets_map.get(target.ID, 0)
-    #     required_ships = int((target.num_ships + incoming_fleets) * BUFFER_MULTIPLIER)
-
-    #     # total available ships not enough, skip
-    #     if required_ships > total_available_ships:
-    #         continue
-
-    #     # skip if already enough ships are sent
-    #     if sum(fleet.num_ships for fleet in state.my_fleets() if fleet.destination_planet == target.ID) >= required_ships:
-    #         continue
-
-    #     # Gather ships from nearby planets
-    #     sources = sorted(
-    #         [p for p in state.my_planets() if state.distance(p.ID, target.ID) <= MAX_DISTANCE],
-    #         key=lambda p: (state.distance(p.ID, target.ID), -p.num_ships)
-    #     )
-
-    #     orders = []
-    #     total_sent = 0
-    #     for source in sources:
-    #         # calculate available fleets
-    #         fleets = max(10, int(source.growth_rate * 2))
-    #         available_fleets = max(source.num_ships - fleets, 0)
-    #         if available_fleets <= 0:
-    #             continue
-
-    #         send_ships = min(available_fleets, required_ships - total_sent)
-    #         orders.append((source.ID, target.ID, send_ships))
-    #         total_sent += send_ships
-    #         if total_sent >= required_ships:
-    #             break
-
-    #     # execute orders if sufficient ships were gathered
-    #     if total_sent >= required_ships:
-    #         for order in orders:
-    #             issue_order(state, *order)
-    #         return True
-    # return False
-
 def defensive_fortification(state):
     # priority for high-growth planets and planets with large numbers of ships
     priority_planets = sorted(

@@ -10,13 +10,10 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:1 20 24.0
+DEBUG:root:Order:1 18 19.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:1 3 25.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:1 6 23.0
+DEBUG:root:Order:1 12 68.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -55,448 +52,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:1 9 57.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:20 13 56.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:1 22 57.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:6 14 62.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:3 14 67.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:9 13 30.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:1 15 75.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:20 7 82.0
+DEBUG:root:Order:1 9 26.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -566,7 +122,9 @@ DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
 DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -575,148 +133,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:14 10 45.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:6 16 74.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:1 21 91.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:9 13 63.0
+DEBUG:root:Order:1 9 29.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -733,25 +150,15 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:3 21 95.0
+DEBUG:root:Order:18 5 18.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
 DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -760,10 +167,15 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:12 11 37.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
 DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -772,17 +184,8 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Order:12 17 22.0
+DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
 DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
@@ -812,7 +215,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:20 21 97.0
+DEBUG:root:Order:1 5 25.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -899,7 +302,10 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:22 18 94.0
+DEBUG:root:Order:17 17 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:12 17 16.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -916,97 +322,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:10 8 76.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:7 0 102.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:1 13 106.0
+DEBUG:root:Order:1 6 34.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -1079,21 +395,13 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Order:11 0 14.0
+DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:21 17 94.0
+DEBUG:root:Order:11 0 28.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:12 0 28.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -1110,274 +418,13 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:21 12 137.0
+DEBUG:root:Order:1 6 18.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:18 22 59.0
+DEBUG:root:Order:12 6 18.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:6 12 117.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:0 11 125.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:20 11 145.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Failure
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:9 0 120.0
+DEBUG:root:Order:18 6 22.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -1511,22 +558,16 @@ DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:8 19 115.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:12 19 164.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:1 19 176.0
+DEBUG:root:Order:1 19 65.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -1534,546 +575,7 @@ DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:8 19 3.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:8 19 3.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:8 19 3.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:10 19 127.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:8 19 3.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:21 19 82.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:11 10 162.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:21 2 2.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:21 2 2.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:21 2 2.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:21 2 2.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:21 2 2.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 102.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:17 21 98.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:3 5 168.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 4.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 4.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 4.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 4.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 4.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 4.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:19 2 156.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 12.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 4.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 4.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:19 2 180.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:10 8 34.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:14 19 118.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:0 8 110.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:10 8 3.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:10 8 3.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:2 4 228.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:10 8 3.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:10 8 3.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:2 19 13.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:11 10 120.0
-DEBUG:root:Result: Action: send_highest_value -> Success
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:2 19 5.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:4 19 111.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Order:4 19 3.0
-DEBUG:root:Result: Action: trade_down -> Success
-DEBUG:root:Result: Sequence: Heuristic Sequence -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Sequence: Heuristic Sequence
-DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
-DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Result: Action: send_highest_value -> Failure
-DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
-DEBUG:root:Executing:Check: have_largest_fleet
-DEBUG:root:Result: Check: have_largest_fleet -> Success
-DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Result: Action: trade_down -> Failure
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -2087,9 +589,7 @@ DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Result: Action: trade_down -> Failure
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -2103,9 +603,7 @@ DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Result: Action: trade_down -> Failure
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -2114,7 +612,7 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Heuristic Sequence
 DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
 DEBUG:root:Executing:Action: send_highest_value
-DEBUG:root:Order:19 4 24.0
+DEBUG:root:Order:11 20 72.0
 DEBUG:root:Result: Action: send_highest_value -> Success
 DEBUG:root:Executing:Action: send_highest_value
 DEBUG:root:Result: Action: send_highest_value -> Failure
@@ -2122,9 +620,24 @@ DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Result: Action: trade_down -> Failure
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:12 20 69.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -2138,9 +651,78 @@ DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Result: Action: trade_down -> Failure
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:17 9 9.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -2154,9 +736,7 @@ DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Result: Action: trade_down -> Failure
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -2170,9 +750,7 @@ DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Result: Action: trade_down -> Failure
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
@@ -2186,9 +764,449 @@ DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
 DEBUG:root:Executing:Check: have_largest_fleet
 DEBUG:root:Result: Check: have_largest_fleet -> Success
 DEBUG:root:Executing:Check: no_neutral_planets
-DEBUG:root:Result: Check: no_neutral_planets -> Success
-DEBUG:root:Executing:Action: trade_down
-DEBUG:root:Result: Action: trade_down -> Failure
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:17 2 42.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:9 9 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:17 9 9.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:1 13 90.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:20 22 80.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:11 16 81.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:12 15 81.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:18 21 74.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:0 14 84.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:19 19 2.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Order:1 19 11.0
+DEBUG:root:Result: Action: send_highest_value -> Success
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
+DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Heuristic Sequence
+DEBUG:root:Executing:LoopUntilFailed: Action: send_highest_value
+DEBUG:root:Executing:Action: send_highest_value
+DEBUG:root:Result: Action: send_highest_value -> Failure
+DEBUG:root:Result: LoopUntilFailed: Action: send_highest_value -> Success
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Check: no_neutral_planets
+DEBUG:root:Result: Check: no_neutral_planets -> Failure
 DEBUG:root:Result: Sequence: Heuristic Sequence -> Failure
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
