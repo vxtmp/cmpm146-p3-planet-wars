@@ -34,24 +34,16 @@ def setup_behavior_tree():
     
         # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
-    # offensive_plan = Sequence(name='Offensive Strategy')
-    # largest_fleet_check = Check(have_largest_fleet)
-    # attack = Action(attack_weakest_enemy_planet)
-    # offensive_plan.child_nodes = [largest_fleet_check, attack]
-    # spread_sequence = Sequence(name='Spread Strategy')
-    # neutral_planet_check = Check(if_neutral_planet_available)
-    # spread_action = Action(spread_to_weakest_neutral_planet)
-    # spread_sequence.child_nodes = [neutral_planet_check, spread_action]
-
-    new_selector = Selector(name='Heuristic Selector')
+    new_sequence = Sequence(name='Heuristic Sequence')
     trade_down_action = Action(trade_down)
     largest_fleet = Check(have_largest_fleet)
+    no_neutral_planet_check = Check(no_neutral_planets)
     attack = Action(send_highest_value)
     repeater = LoopUntilFailed(attack)
 
-    new_selector.child_nodes = [repeater, largest_fleet, trade_down_action]
+    new_sequence.child_nodes = [repeater, largest_fleet, no_neutral_planet_check, trade_down_action]
 
-    root.child_nodes = [new_selector]
+    root.child_nodes = [new_sequence]
 
     logging.info('\n' + root.tree_to_string())
     return root

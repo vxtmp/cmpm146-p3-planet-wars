@@ -249,7 +249,7 @@ def trade_down(state):
     best_heuristic = 0
     best_planet = None
 
-    for enemy_planet in state.enemy_planet_planets():
+    for enemy_planet in state.enemy_planets():
         heuristic = trade_down_heuristic(state, enemy_planet)
         if heuristic > best_heuristic:
             best_heuristic = heuristic
@@ -272,8 +272,14 @@ def trade_down_heuristic(state, target_planet):
     heuristic = 0
     total_enemy_ships = 0
     for planet in state.enemy_planets():
+        if planet.ID == target_planet.ID:
+            continue
         total_enemy_ships += planet.num_ships
     for enemy in state.enemy_planets():
+        if enemy.ID == target_planet.ID:
+            continue
+        if total_enemy_ships == 0:
+            total_enemy_ships = 1
         distance = state.distance(target_planet.ID, enemy.ID)
         # weighted by the growth rate and ships out of total enemy ships and distance
         heuristic += enemy.num_ships / total_enemy_ships * target_planet.growth_rate / distance
