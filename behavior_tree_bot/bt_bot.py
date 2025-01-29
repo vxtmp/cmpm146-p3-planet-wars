@@ -32,49 +32,26 @@ def setup_behavior_tree():
     # if late game (how do we detect this?)
     #     include trading down with greedy capture 
     
-    # Top-down construction of behavior tree
+        # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
-
-    attackLoop = Sequence(name='Attack Loop')
-    attack = Action(send_highest_value)
-    attackRepeater = LoopUntilFailed(attack)
-
-    have_largest_fleet = Check(have_largest_fleet)
-    trade_down_action = Action(trade_down)
-
-    attackLoop.child_nodes = [attackRepeater, have_largest_fleet, trade_down_action]
-
-
-    # Early game
-    # early_game_sequence = Sequence(name='Early Game Sequence')
-    # early_game_check = Check(if_early_game)
-    # attack = Action(send_highest_value)
-    # attackRepeater = LoopUntilFailed(attack)
-    # early_game_sequence.child_nodes = [early_game_check, attackRepeater]
-    
-    # # Late game
-    # late_game_sequence = Sequence(name='Late Game Sequence')
-    # late_game_check = Check(if_late_game)
-    # fleet_size_selector = Selector(name='Fleet Size in Late Game')
-
-    # # Offensive late game
-    # offensive_late_game_sequence = Sequence(name='Offensive Late Game Strategy')
+    # offensive_plan = Sequence(name='Offensive Strategy')
     # largest_fleet_check = Check(have_largest_fleet)
-    # trade_down_action = Action(trade_down)
-    # offensive_late_game_sequence.child_nodes = [largest_fleet_check, attackRepeater, trade_down_action]
+    # attack = Action(attack_weakest_enemy_planet)
+    # offensive_plan.child_nodes = [largest_fleet_check, attack]
+    # spread_sequence = Sequence(name='Spread Strategy')
+    # neutral_planet_check = Check(if_neutral_planet_available)
+    # spread_action = Action(spread_to_weakest_neutral_planet)
+    # spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    # # Defensive late game
-    # defensive_late_game_sequence = Sequence(name='Defensive Late Game Strategy')
-    # not_largest_fleet_check = Check(have_smallest_fleet)
-    # fortification = Action(defensive_fortification)
-    # defensive_late_game_sequence.child_nodes = [not_largest_fleet_check, attackRepeater, fortification]
+    new_selector = Selector(name='Heuristic Selector')
+    trade_down_action = Action(trade_down)
+    largest_fleet = Check(have_largest_fleet)
+    attack = Action(send_highest_value)
+    repeater = LoopUntilFailed(attack)
 
-    # fleet_size_selector.child_nodes = [offensive_late_game_sequence, defensive_late_game_sequence]
-    # late_game_sequence.child_nodes = [late_game_check, fleet_size_selector]
+    new_selector.child_nodes = [repeater, largest_fleet, trade_down_action]
 
-    # root.child_nodes = [early_game_sequence, late_game_sequence]
-
-    root.child_nodes = [attackLoop]
+    root.child_nodes = [new_selector]
 
     logging.info('\n' + root.tree_to_string())
     return root
