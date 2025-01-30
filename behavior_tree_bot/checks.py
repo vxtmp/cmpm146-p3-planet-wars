@@ -1,3 +1,8 @@
+from behaviors import simulate_planet
+
+
+
+
 def always_true(state):
     return True
 
@@ -33,4 +38,9 @@ def have_smallest_fleet(state):
              + sum(fleet.num_ships for fleet in state.enemy_fleets())
 
 def no_neutral_planets(state):
-    return state.neutral_planets() == []
+    # check if any planets inside state.neutral_planets()
+    has_neutral_planets = False
+    for planet in state.neutral_planets():
+        has_neutral_planets = True
+        break
+    return has_neutral_planets

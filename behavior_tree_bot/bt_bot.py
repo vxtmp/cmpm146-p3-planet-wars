@@ -32,16 +32,24 @@ def setup_behavior_tree():
     # if late game (how do we detect this?)
     #     include trading down with greedy capture 
     
-        # Top-down construction of behavior tree
+    # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
-    do_everything = Sequence(name='Heuristic Sequence')
+    do_everything = Sequence(name='Loop send_highest_value')
+    attack = Action(send_highest_value) # simulation + heuristic based
+    repeater = LoopUntilFailed(attack)
+
+    trade_down_sequence = Sequence(name='If no neutral + largest fleet, trade down')
     trade_down_action = Action(trade_down)
     largest_fleet = Check(have_largest_fleet)
     no_neutral_planet_check = Check(no_neutral_planets)
-    attack = Action(send_highest_value)
-    repeater = LoopUntilFailed(attack)
+    trade_down_sequence.child_nodes = [largest_fleet, no_neutral_planet_check, trade_down_action]
 
-    do_everything.child_nodes = [repeater, largest_fleet, no_neutral_planet_check, trade_down_action]
+    # reposition_sequence = Sequence(name='Loop reposition on remaining planets')
+    # repositionAction = Action(reposition_all)
+    # repo_repeater = LoopUntilFailed(repositionAction)
+    # reposition_sequence.child_nodes = [repo_repeater]
+
+    do_everything.child_nodes = [repeater, trade_down_sequence]
 
     root.child_nodes = [do_everything]
 
